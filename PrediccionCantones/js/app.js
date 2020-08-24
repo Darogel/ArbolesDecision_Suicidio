@@ -35,9 +35,6 @@ $('#formulario').on('submit',function(e){
           }]
         };
       
-      
-        var destino = "https://go.rapidminer.com/am/api/deployments/2dceeafe-7220-44ce-8290-934850c048b7";
-      
         var url = "https://go.rapidminer.com/am/api/deployments/2dceeafe-7220-44ce-8290-934850c048b7";
         
         $.ajax({
