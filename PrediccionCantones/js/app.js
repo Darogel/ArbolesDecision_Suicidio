@@ -35,7 +35,10 @@ $('#formulario').on('submit',function(e){
           }]
         };
       
-        var url = "https://go.rapidminer.com/am/api/deployments/2dceeafe-7220-44ce-8290-934850c048b7";
+      
+        var destino = "https://go.rapidminer.com/am/api/deployments/2bfaaf7a-e16e-444d-a0ac-e8cb400a5e7c";
+      
+        var url = "https://go.rapidminer.com/am/api/deployments/2bfaaf7a-e16e-444d-a0ac-e8cb400a5e7c";
         
         $.ajax({
             type: "POST",
@@ -47,7 +50,7 @@ $('#formulario').on('submit',function(e){
             $.each(value, function (index, data) {
               if (index == "prediction(cant_res)") {
                 var canton = Math.floor(data);
-                alert(canton)
+                //alert(canton)
                 // Transformar Valor del modelo en Texto
                 if(canton > 100 && canton < 116){
                   if(canton == 101){
@@ -596,7 +599,7 @@ $('#formulario').on('submit',function(e){
                 <input class="input--style-5"  id="prov" disabled="disabled"  value=${canton}>
                 <label class="label--desc">Predicción Cantón Residencia</label>
                 <br><br><br>
-                <span class="label label-success" id="OP">Las Datos ingresados representan a este canton como a tomar en consideración de un posible incremento de casos de suicidio</span>
+                <span class="label label-success" id="OP">Mediante la implementación del Modelo de Arboles de decisión podemos observar que con las caracteristicas ingresadas anteriormente,  el canton ${canton} posiblemente puede mostar un incremento en casos de suicidio.</span>
                 <br><br><br>
                 <button class="btn btn--radius-2 btn--green" onclick="location.reload()">Reestablecer</button>
                 </div>`
