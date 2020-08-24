@@ -1,3 +1,5 @@
+# Inteligencia Artificial
+
 # ArbolesDecision_Suicidio
 Un árbol de decisión es una forma gráfica y analítica de representar todos los eventos (sucesos) que pueden surgir a partir de una decisión asumida en cierto momento. Nos ayudan a tomar la decisión “más acertada”, desde un punto de vista probabilístico, ante un abanico de posibles decisiones.
 
