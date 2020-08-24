@@ -1,8 +1,11 @@
 # Inteligencia Artificial
 Proyecto de Machine Learning para la prediccion de cantones con un incremento de suicidio, para lo cual se ha utilizado:
-  Base de datos obtenidas del Instituto Nacional de Estadística y Censos (ver https://www.ecuadorencifras.gob.ec/nacimientos-y-defunciones-informacion-historica/).
-  Para el Modelo se hizo utilizo el modelo de arboles de decisión mediante su implementación en la Herramienta RapidMiner Go (ver https://rapidminer.com/products/go/).
-  Para el desarrollo de la aplicación se utilizo JavaScript junto con HTML.
+
+  * Base de datos obtenidas del Instituto Nacional de Estadística y Censos (ver https://www.ecuadorencifras.gob.ec/nacimientos-y-defunciones-informacion-historica/).
+  
+  * Para el Modelo se hizo utilizo el modelo de arboles de decisión mediante su implementación en la Herramienta RapidMiner Go (ver https://rapidminer.com/products/go/).
+  
+  * Para el desarrollo de la aplicación se utilizo JavaScript junto con HTML.
 
 El dataset que se utilizo consta de 2817 registros y 13 columnas las cuales han sido seleccionadas a partir del analisis exploratorio realizado para la comprención y entender la relación de las variables del dataset.
 
