@@ -599,7 +599,7 @@ $('#formulario').on('submit',function(e){
                 <input class="input--style-5"  id="prov" disabled="disabled"  value=${canton}>
                 <label class="label--desc">Predicción Cantón Residencia</label>
                 <br><br><br>
-                <span class="label label-success" id="OP">Mediante la implementación del Modelo de Arboles de decisión podemos observar que con las caracteristicas ingresadas anteriormente,  el canton ${canton} posiblemente puede mostar un incremento en casos de suicidio.</span>
+                <span class="label label-success" id="OP">Mediante la implementación del Modelo de Arboles de decisión podemos observar que con las características ingresadas anteriormente, el cantón ${canton} posiblemente puede mostrar un incremento en casos de suicidio.</span>
                 <br><br><br>
                 <button class="btn btn--radius-2 btn--green" onclick="location.reload()">Reestablecer</button>
                 </div>`
